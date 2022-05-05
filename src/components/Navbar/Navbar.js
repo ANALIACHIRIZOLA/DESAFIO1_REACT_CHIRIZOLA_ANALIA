@@ -1,3 +1,5 @@
+import CartIcon from "../CartIcon/CartIcon"
+import ItemListContainer from "../ItemListContainer/ItemListContainer";
 export default function Navbar () {
 
 const headerStyles = {
@@ -16,7 +18,8 @@ const headerStyles = {
                     <li>Contacto</li>
 
                 </ul>
-
+                <CartIcon count={5}></CartIcon>
+                <ItemListContainer></ItemListContainer>
             </header>
         );
       }
