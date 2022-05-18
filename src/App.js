@@ -3,8 +3,6 @@ import Navbar from "./components/Navbar/Navbar";
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer"
 import {products} from "./data/productos"
 
-
-
 function App() {
 
   const task = new Promise((resolve,reject) => {
@@ -28,7 +26,6 @@ function App() {
         )
         })}
       <ItemListContainer greeting={"mensaje de ok"}/>
-  
       </div>
   );
 }
